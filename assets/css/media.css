@@ -1,0 +1,116 @@
+@media(max-width: 900px)
+{
+    h1,h2,h3 {
+        font-size: 20px !important;
+    }
+    h4 {
+        font-size: 16px !important;
+    }
+    h5 {
+        font-size: 16px !important;
+    }
+    h6 {
+        font-size: 14px !important;
+    }
+    p , a , li , button {
+        font-size: 11px !important;
+    }
+    .mobile-none ,  .scroll-top-button {
+        display: none !important;
+    }
+    .mobile-block{
+        display: block !important;
+    }
+    .mobile-full-width{
+        width: 100% !important;
+    }
+    .bottom-nav{
+        display: flex !important;
+    }
+    .popup .popup-inner {
+        width: 100%;
+        height: 70%;
+    }
+    .product-box .content h3{
+        margin: 0px !important;
+    }
+    .product-box .content h3 a ,
+    .product-box .content .price-content .before{
+        font-size: 11px !important;
+    }
+    .product-box .content .price-content .after{
+        font-size: 14px !important;
+    }
+    .product-box .content .button-content{
+        flex-direction: column;
+    }
+    .product-box .content .button-content .custom-bnt
+    {
+        width: 100%;
+        margin: 5px 0px;
+    }
+    .product-box .image-content{
+        height: 100px;
+    }
+    
+    .popup .popup-inner .poup-image{
+        padding: 10px 0px;
+    }
+    footer .payment-logo img{
+        width: 50px;
+        height: 50px;
+    }
+    .swiper-button-next , .swiper-button-prev{
+        bottom: 0% !important;
+        top: unset  !important;
+       
+    }
+    html[dir='rtl'] .charge-product .swiper-button-next ,
+    html[dir='rtl'] header .swiper-button-next
+    {
+        left: 0 !important;
+    }
+    html[dir='ltr'] .charge-product .swiper-button-next ,
+    html[dir='ltr'] header .swiper-button-next
+    {
+        right: 0 !important;
+    }
+    html[dir='rtl'] .charge-product .swiper-button-prev ,
+    html[dir='rtl'] header .swiper-button-prev
+    {
+        right: 0 !important;
+    }
+    html[dir='ltr'] .charge-product .swiper-button-prev ,
+    html[dir='ltr'] header .swiper-button-prev
+    {
+        left: 0 !important;
+    }
+    header .swiper-container .swiper-slide{
+        height: 200px;
+    }
+    .features .feature-content{
+        padding: 10px 20px !important;
+    }
+    header .swiper-container{
+        padding: 0px;
+    }
+    .general-section{
+        padding: 50px 0px 20px 0px;
+    }
+    .copyrights{
+        padding-bottom: 80px;
+    }
+    .copyrights .content{
+        flex-direction: column !important;
+        justify-content: center !important;
+    }
+    .general-heading .heading-overlay{
+        font-size: 22px !important;
+    }
+    .product-box .content .type{
+        width: 100%;
+    }
+    .product-box .content {
+        padding: 0px 0px 10px 0px;
+    }
+}
